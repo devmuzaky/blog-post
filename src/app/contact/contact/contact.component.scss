@@ -1,0 +1,29 @@
+.container{
+  display: flex;
+  height: calc(100vh - 196px);
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+}
+.social-icon {
+  background-size: 100%;
+  width: 50px;
+  height: 50px;
+  margin: 0 0.5rem;
+  transition: all 0.3s ease-in-out;
+  &:hover{
+    transform: scale(1.2);
+  }
+}
+
+.card-link{
+  text-decoration: none;
+  color: rgba(0, 90, 255, 0.79);
+  transition: all 0.3s ease-in-out;
+  font-size: 1.2rem;
+  font-weight: 500;
+  &:hover{
+    text-decoration: none;
+    color: #000;
+  }
+}

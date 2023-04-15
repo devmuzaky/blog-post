@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ContactComponent } from './contact/contact.component';
+import {MatIconModule} from "@angular/material/icon";
 
 
 
@@ -9,7 +10,8 @@ import { ContactComponent } from './contact/contact.component';
     ContactComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatIconModule
   ]
 })
 export class ContactModule { }
