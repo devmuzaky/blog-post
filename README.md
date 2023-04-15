@@ -1,27 +1,69 @@
-# MyBlog
+Personal Blog
+=============
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
+This is a personal blog built with Angular and Scully. The blog allows you to create and publish blog posts using Markdown files. The application is fully responsive and optimized for SEO, thanks to Scully's static site generation capabilities.
 
-## Development server
+Table of Contents
+-----------------
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Features
+- Getting Started
+- Usage
+- Contact
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Features
+--------
 
-## Build
+-   The Blog App is built with Angular and Scully
+-   Scully site generator for static site generation
+-   Markdown support for writing blog posts
+-   Responsive design using Bootstrap
+-   Routing using Angular routing capabilities
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Getting Started
+---------------
 
-## Running unit tests
+1.  Clone the repository: `git clone https://github.com/devmuzaky/blog-post.git`
+2.  Install dependencies: `npm install`
+3.  Serve the application: `ng serve`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Usage
+-----
 
-## Running end-to-end tests
+To create a new blog post, add a new Markdown file in the
+`root/mdfiles` directory. The file name should be in the format `yyyy-mm-dd-title-of-post.md`, where `yyyy-mm-dd` is the date of the post and `title-of-post` is the title of the post in lowercase and separated by hyphens.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Here's an example of how the file should be structured:
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+
+---
+title: My First Blog Post
+description: A short description of my first blog post
+author: Moe Zaky
+published: true
+publishedAt: 2022-04-15
+tags:
+- Angular
+- Scully
+---
+
+# My First Blog Post
+
+This is the content of my first blog post. Enjoy!
+
+```
+
+Once you've created the Markdown file, run `npm run build` to generate 
+the static site. The generated files will be in the `dist/posts` directory.
+
+
+Contact
+-------
+
+You can find me on the following platforms:
+
+- Twitter: [@devmuzaky](https://twitter.com/devmuzaky)
+- LinkedIn: [@devmuzaky](https://www.linkedin.com/in/devmuzaky/)
